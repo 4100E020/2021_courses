@@ -34,7 +34,7 @@
 - 變更執行階段類型
 ![](https://github.com/4100E020/homework/blob/d1600518ddb6d329eadd093d7ae45a773bfa1395/%E8%B3%87%E8%A8%8A%E6%A6%82%E8%AB%96/20210915/%E5%9C%96%E7%89%87/%E8%AE%8A%E6%9B%B4%E5%9F%B7%E8%A1%8C%E9%9A%8E%E6%AE%B5%E9%A1%9E%E5%9E%8B.png)
 ![](https://github.com/4100E020/homework/blob/d1600518ddb6d329eadd093d7ae45a773bfa1395/%E8%B3%87%E8%A8%8A%E6%A6%82%E8%AB%96/20210915/%E5%9C%96%E7%89%87/%E8%AE%8A%E6%9B%B4%E5%9F%B7%E8%A1%8C%E9%9A%8E%E6%AE%B5%E9%A1%9E%E5%9E%8B2.png)  
--新增筆記
+- 新增筆記
 ![](https://github.com/4100E020/homework/blob/d1600518ddb6d329eadd093d7ae45a773bfa1395/%E8%B3%87%E8%A8%8A%E6%A6%82%E8%AB%96/20210915/%E5%9C%96%E7%89%87/Google%20colab%20%E6%96%B0%E5%A2%9E%E7%AD%86%E8%A8%98.png)  
 - 運行結果
 ![](https://github.com/4100E020/homework/blob/d1600518ddb6d329eadd093d7ae45a773bfa1395/%E8%B3%87%E8%A8%8A%E6%A6%82%E8%AB%96/20210915/%E5%9C%96%E7%89%87/%E9%81%8B%E8%A1%8C%E7%B5%90%E6%9E%9C.png)
