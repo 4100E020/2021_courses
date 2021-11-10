@@ -1,0 +1,305 @@
+---
+title: 期中考名詞
+tags: 考試內容
+lang: zh-tw
+---
+{%hackmd theme-dark %}
+# 期中考問答題
+- [1.觀念題與簡答題](#1.觀念題與簡答題)
+- [2.問答與申論題](#2.問答與申論題)
+
+## 1.觀念題與簡答題
+```
+::簡單說明底下重要觀念:
+為強化學生對專業英文的學習，本次考試部分試題採英文命題，學生可以用中文作答
+
+學習目標:本試題旨在訓練學生以 自己清楚的重點  說明 表達   對  某些觀念 的 認知。
+
+答題架構:答題以  清楚簡單  為主,每一個主題或名詞請列  三~五點  重點
+```
+
+## 範例題目: CSS
+### 範例參考解答:
+- CSS英文全名為Cascading Style Sheets
+- CSS是用來指定網頁上的內容在瀏覽器中將會如何顯示
+- 網頁開發人員會使用 CSS 來指定色彩、位置、對齊方式、字型、背景圖片等屬性
+
+## 期中考範例題目[網路][教科書第10章334-355:重要名詞與觀念]
+### ISP (Internet service provider)
+- 網際網路服務業者
+    - 例：中華電信 遠傳
+
+### 網路(硬體)設備
+1. [集線器（hub）](https://zh.wikipedia.org/wiki/%E9%9B%86%E7%B7%9A%E5%99%A8)
+    - Layer 1 實體層(Physical Layer)
+    - 會把收到的任何數位訊號，經過再生或放大，再從集線器的所有埠送出
+    - 一旦發生衝突，就會丟棄封包
+    - 大部分已被交換機取代
+    - 只能以半雙工模式工作
+2. [交換器（switch)](https://zh.wikipedia.org/wiki/%E7%B6%B2%E8%B7%AF%E4%BA%A4%E6%8F%9B%E5%99%A8)
+    -  Layer 2 資料鏈路層(Data Link Layer)
+    -  在資料鏈路層使用MAC位址轉發資料。通過引入路由功能
+3. 路由器（router）
+    - 決定封包路徑
+4. 數據機（modem）
+    - demodulating: 把 Analog signal 轉換成 Digital signal
+    - modulating: 把 Digital signal 轉換成 Analog signal
+
+### 網路介面卡（network interface card, NIC）
+  - Layer 2 資料連結層
+  - 每一個網路卡都有MAC位址獨一無二的48位元序列號
+  - 新電腦都在主機板上整合網路介面
+    - 主機板內建網卡(LOM)
+
+### 網路拓樸（network topology）
+  - 匯流排拓樸(Bus)
+    - 優點
+      1. 成本低
+      2. 適合小型網路
+    - 缺點
+      1. 其一壞全壞
+      2. 兩端須裝終端子
+      3. 維護管理成本高
+  - 星狀拓樸(star)
+    - 優點
+      1. 方便管理
+      2. 控制簡單
+      3. 集中管理，可方便地提供服務和網絡重新配置
+      4. 每個連結到中央 易檢測
+    - 缺點
+      1. 線路利用率不高
+      2. 中央附載太大
+      3. 安裝維修費用高所需電纜多
+  - 環狀拓樸(Ring)
+    - 優點
+      1. 速度最快
+      2. 單向操作
+      3. 僅一條道路 故簡化路徑選擇
+      4. 適合光纖 傳輸距離遠
+    - 缺點
+      1. 響應延遲：由於信息源在環路中是串行地穿過各個節點，當環中節點過多時，勢必影響信息傳輸速率，使網絡的響應時間延長；
+      2. 擴展性能差：環形結構的封閉性決定了其擴展性能遠不如星型結構，如果要新添加或移動結點，就必須中斷整個網絡，在環的兩端作好連接器才能連接；
+      3. 維護困難：整個網絡各節點間直接串聯，任何一個節點出故障都會造成整個網絡的中斷癱瘓，維護十分不便；
+      4. 維護困難：同軸電纜所採用的是插針式的接觸方式，容易造成接觸不良、網絡中斷，同時對分支節點故障定位較難。
+  - 網狀拓樸(Mesh)
+
+### 網路架構（network architecture）
+- [OSI_7 TCP/IP](https://hackmd.io/@KSU/Hk4HLc0Bt/edit)
+
+### 主從式網路（client/server network）
+### 點對點網路（peer-to-peer network, P2P network）
+### 區域網路（local area network, LAN）
+ - 連線有限地理地區多台裝置的網路。
+ - 通常在同一建築物內。
+- Ethernet, Home WiFi network, small business networks
+
+### 廣域網路（wide area network, WAN）
+- 連線分布在廣大地理區域(如國家)的眾多裝置的網路
+- Internet 
+
+### 都會區域網路（metropolitan area network, MAN）
+ - 廣域網路的一種。
+- 範圍通常是一個城市或小鎮。 
+
+### 個人區域網路（personal area network, PAN）
+- 連線小範圍內多台個人數位裝置的網路
+- 透過 bluetooth, NFC
+
+### VPN(virtual private network)(必考題)
+- [InInsect_VPN_Note](https://hackmd.io/@CHUNG-JUI-HE/SydfWf_Ut)
+
+### 網際網路`inter`net, 內部網路`intra`net, 外部網路`extra`net
+- 網際網路`inter`net
+    - 以一些標準的網路協定(TCP、UDP等...)相連。
+    - 透過電子、無線和光纖網路技術等一系列廣泛的技術聯繫在一起。 
+    - 擁有範圍廣泛的資訊資源和服務，例如:相互關聯的超連結，還有全球資訊網（WWW）的應用、電子郵件、通話，以及檔案分享服務等...。
+    
+- 內部網路`intra`net
+    - 
+### 惡意軟體（malware）
+- 透過網路、可攜式儲存裝置(USB)散播。
+- 會故意對個人電腦、伺服器造成機密資料外洩、系統損害(不會崩潰)、資料丟失等...。
+- 會試圖阻止使用者刪除惡意軟體。
+
+### 網路釣魚（phishing）
+### 社交工程（social engineering）
+### 阻斷服務攻擊（denial of service attack）|DoS 攻擊（DoS attack）
+### 分散式阻斷服務攻擊（distributed denial of service attack）| DDoS 攻擊（DDoS attack） 
+### 殭屍（zombie）電腦
+ - 又稱肉雞
+ - 可隨時按駭客命令攻擊
+
+### 雙面惡魔evil twin | fake ap |  rogue ap
+### [驗證（authentication）](https://zh.wikipedia.org/wiki/%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81)(必考題)
+- 通過一定的手段，完成對使用者身分的確認。
+- 可分為：
+    1. 基於共享金鑰
+    2. 基於生物學特徵
+        - 利用生物特徵驗證 例：指紋 虹膜
+    3. 基於[公開金鑰加密](https://zh.wikipedia.org/wiki/%E5%85%AC%E5%BC%80%E5%AF%86%E9%92%A5%E5%8A%A0%E5%AF%86)演算法
+
+#### 公開金鑰
+[尚未整理](https://zh.wikipedia.org/wiki/%E5%85%AC%E9%96%8B%E9%87%91%E9%91%B0%E8%AA%8D%E8%AD%89)
+
+#### 生物認證
+
+
+### 強式密碼（strong password）
+### 防火牆（firewall） ==> 硬體防火牆   軟體防火牆
+### 網路附接儲存體（network attached storage, NAS）
+### 加密（encryption）
+### 網路標準（network standard）
+### [Ethernet](https://zh.wikipedia.org/wiki/%E4%BB%A5%E5%A4%AA%E7%BD%91)(必考題)
+- 為 [LAN(Local Area Network)](https://zh.wikipedia.org/wiki/%E5%B1%80%E5%9F%9F%E7%BD%91) 中最常使用的一種技術。
+- [IEEE 802.3](https://zh.wikipedia.org/wiki/IEEE_802.3x) 制定了它的技術標準。
+- 標準拓撲結構為[匯流排型拓撲(Bus Topology)](https://zh.wikipedia.org/wiki/%E5%8C%AF%E6%B5%81%E6%8E%92%E6%8B%93%E6%92%B2)。
+- 每個節點必須取得電纜或者通道才能傳送資訊。
+- 其他區域網路標準如權杖環、FDDI 和 ARCNET。
+
+### 協定（protocol）
+#### Transmission Control Protocol（傳輸控制協定)
+#### Internet Protocol（網際網路協定） 
+### NFC(必考題) / RFID / 藍芽
+[表格位置](https://en.wikipedia.org/wiki/Near-field_communication)
+| 方面 | NFC | 藍芽 |RFID |
+| :--:  | :--: | :--: |:--: |
+|全名|Near Field Communication|Bluetooth|Radio Frequency Identification|
+|傳輸距離|<=0.1m|<=10m|<=1m|
+|傳輸速度|慢868kbps|快 2.1Mbps|中1Mbps|
+|連線方式|一對一|一對多|一對一|
+|成本|低|中|低|
+
+### 蜂巢式網路（cellular network）(必考題)
+- 是一種網路通訊的架構
+- 蜂巢網路組成
+    - 移動站
+        - 終端設備如 手機
+    - 基站子系統
+        - 無線收發設備
+        - 一般使用光纖
+    - 網路子系統
+        - 包含GSM交換系統
+        - 網路設備如 交換器(Switch)
+### Wi-Fi 熱點(hopspot)
+- 路由器韌體firmware
+- `硬`體(`hard`ware)|`軟`體(`soft`ware)|`韌`體(`firm`ware)
+
+## 期中考範例題目[數位通訊][教科書第11章360-396:重要名詞與觀念]
+- 數位通訊digital communication
+- podcast 播客
+- 網路研討會| webinar|web-based seminar 
+- VoIP（Voice over Internet Protocol）
+- 影片部落格（video blog 或 vlog）
+- 內容聚合（content aggregator） 
+- 微型部落格（microblog)
+- 現場部落格（live blog） 
+- 媒體分享網路（media-sharing network）
+- 消費者評價網路（consumer review network）
+- 討論區網路（discussion forum network
+- 社群書籤（social bookmarking） 
+- 社群典藏（social curation）
+### 網路禮節（netiquette）(必考題)
+- `群眾`外包（`crowd`sourcing）  vs 外包(`out`sourcing）  
+- `群眾`集資（`crowd`funding） ==> http://iiic.niu.edu.tw/actnews/intro.php?Sn=13&OSn=42
+- 科技上癮（technology addiction）
+- 科技過載（technology overload）
+- 網路霸凌（cyber`bullying`）
+- 網路跟蹤（cyber`stalking`）
+### emoji(必考題)
+- 謾罵論戰（flaming）
+- 同好社群網站（interest-based network
+- 電子郵件位址（email address）
+- 網域名稱（domain name）
+- 「關於」頁面（About page）
+
+
+## 期中考範例題目[作業系統與檔案管理][教科書第4章110-134:重要名詞與觀念]
+### 系統軟體（system software）
+### 應用軟體(appliation software) 
+### 作業系統（operating system, OS）
+- 圖形化使用者介面（graphical user interface, GUI）
+- 公用程式（utility）
+- `封閉`原始碼（`closed` source）  vs `開放`原始碼（`open` source）
+- 虛擬化（virtualization）
+- 虛擬機器（virtual machine, VM）
+
+
+### 作業系統（operating system, OS）的功能: 檔案管理
+- 執行檔（executable file）
+- 檔案格式（file format）
+- 檔案副檔名（file extension）
+
+### 作業系統（operating system, OS）的功能: 記憶體管理
+- 記憶體（memory）
+- 記憶體階層(memory hierarchy)
+- 虛擬記憶體（virtual memory）
+- 
+- `揮發性`記憶體（`volatile` memory） vs `非揮發性`記憶體（`nonvolatile` memory）
+- RAM（random access memory，隨機存取記憶體）
+- ROM（read-only memory，唯讀記憶體）
+- 快閃記憶體（flash memory）
+
+### 開機程序（boot process） 
+
+- 核心（kernel）與shell
+
+### 作業系統（operating system, OS）的功能: IO管理
+
+- 輸入（input） vs  輸出（output）
+- 緩衝區（buffer）
+- 多工緩衝處理（spooling）
+
+## windows系統管理工具
+- 磁碟清理公用程式（disk cleanup utility）
+- 使用者帳戶（user account）  vs 系統管理員帳戶（administrator account）
+
+### 作業系統（operating system, OS）的功能: 檔案管理(File mnagement)
+
+```
+1. bandwidth與 bps[相關題]
+2. RFID
+3. NFC
+4. cellular network4
+5. technology addiction
+6. Crowdsourcing vs Crowdfunding[比較題]
+7. metadata
+8. CMS
+9. DDos Attack
+10. Botnet
+11. RWD
+12. SEO
+```
+
+
+## 2.問答與申論題 
+- OSI Model 與 TCP/IP protocol
+
+本題須清楚簡述底下主題:
+1. 解釋 communication protocol(簡稱協定 protocol)
+
+2. Why Layering? (為何要分層 ?)
+
+3. 列出 OSI Model 與 TCP/IP protocol對應圖
+   註 1: 需用中英文寫出各層的名稱
+    註 2:須說明 OSI Model每一層的簡略功能
+
+4. 簡述 下列協定的功能 與特色並說明它們 運作在 TCP/IP的哪一層?
+   (1)HTTP vs HTTPS (2) TELNET vs SSH (3)DNS (4)IP (5)ICMP
+
+5. TCP vs UDP
+[1]英文全名
+[2]須說明 reliable(可靠) vs un-reliable(不可靠)
+[3]如何達到reliable(可靠)
+[4]Three-way handshaking機制
+
+6.簡述下列網路設備  主要功能 與 特色 及 運作在 OSI哪一層
+(1) Hub vs Repeater
+(2)Switch vs Bridge
+(3)Router vs L3 Switch
+(4)Proxy
+
+7.簡述下列 簡述下列 address(位址 )的意義 與定義 在 OSI Model哪一層
+(1)PORT address
+(2)IP address
+(3)MAC address
+
