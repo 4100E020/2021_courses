@@ -1,5 +1,5 @@
 ### 基礎框架
-
+```
 <!DOCTYPE html>
 <html>
   
@@ -8,3 +8,5 @@
 
 <body>
 </html>
+
+```
