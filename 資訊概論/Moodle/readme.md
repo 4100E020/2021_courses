@@ -1,6 +1,5 @@
-{%hackmd theme-dark %}
-# Azure Moodle install
-###### tags: `Azure` `Moodle`
+# CentOS Moodle install
+###### tags: `CentOS` `Moodle`
 ## 安裝套件
 
 - 更新套件
