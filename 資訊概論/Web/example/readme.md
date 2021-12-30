@@ -3,7 +3,7 @@
 <!DOCTYPE html> <!-- 設定檔案類型-->
 <html> <!-- 檔案開始 -->
 <head>  <!-- 標頭 -->
-    <title>Cafe Unlimited - Home</title>
+    <title>Cafe Unlimited - Home</title> <!-- 網頁名稱  -->
 <!-- Java script -->
     <script>
         //圖片變大
